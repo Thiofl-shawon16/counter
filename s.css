@@ -1,0 +1,30 @@
+.all {
+    width: 208px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #0000004d;
+   
+}
+#x,#y {
+    width: 45%;
+    text-align: center;
+    border: 1px solid #00000008;
+}
+#ab {
+    padding: 10px;
+}
+#a {
+    margin-right: 52px;
+    outline: none;
+    border: 1px solid #00000021;
+    background: #7fffd400;
+    cursor: pointer;
+}
+#b{
+    outline: none;
+    border: none;
+    background: #7fffd400;
+    cursor: pointer;
+    border: 1px solid #00000021;
+}

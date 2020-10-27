@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        body{
+            background-color: #163071;
+        }
+        .al {
+    background-color: #0a1a42;
+    width: 200px;
+    border: 2px solid #caad14;
+    padding: 80px;
+    margin: auto;
+    margin-top: 74px;
+    box-shadow: 0px 3px 12px 2px #03060e;
+    
+        }
+        input[type="text"] {
+    font-size: 40px;
+    text-align: center;
+    color: gold;
+    width: 99%;
+    border: none;
+    background: #f0f8ff00;
+    outline: none;
+}
+div {
+    
+    text-align: center;
+    padding: 10px;
+}
+#btn,button {
+    padding: 9px;
+    background: #031542;
+    color: gold;
+    border: none;
+    box-shadow: 0px 0px 3px #2b3c67;
+    outline: none
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="al">
+        <h4 style="color: gold;text-align: center;">COUNTER</h4>
+        <div>
+            <input type="text" >
+        </div>
+        <div>
+            <button id="btn" onclick="myfunc()">Like</button>
+            <button id="btn1" >Dislike</button>
+        </div>
+    </div>
+    
+    
+    <script>
+        let a=document.querySelector('input');
+        let x=document.querySelector('#btn');
+        let y=document.querySelector('#btn1');
+        
+       function myfunc(){
+           a.value++
+
+       }
+       y.onclick=()=>{
+        if(a.value>0)
+           a.value--
+       }
+        
+        
+    </script>
+    
+</body>
+</html>
